@@ -142,7 +142,7 @@ function halim_footer_copyright($html = "")
 {
     $html = cs_get_option("copyright_text");
     if (!$html) {
-        $html = "Theme developed by Hậu Nguyễn";
+        $html = "Theme developed by R";
     }
     $text = "© <a id=\"halimthemes\" href=\"" . home_url("/") . "\" title=\"" . $html . "\">" . $html . "</a>";
     return apply_filters("halim_copyright_text", $text);
