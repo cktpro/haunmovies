@@ -1,0 +1,1857 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: HaLimMovie\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-30 12:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Domain: halimthemes"
+
+#: includes/widgets/halim-advanced-widget.php:181
+msgid " Theater movie"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:472
+#, php-format
+msgid "%s License Key & Child Theme Management"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:394
+msgid "1 month"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:386
+msgid "1 weekly"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:410
+msgid "10 min"
+msgstr ""
+
+#: single.php:65
+msgid "18+ ENTER"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:398
+msgid "2 month"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:390
+msgid "2 week"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:402
+msgid "3 month"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:265
+msgid "4 item/row"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:138
+#: includes/widgets/halim-latest-post.php:94
+#: includes/widgets/halim-movies-widget.php:137
+#: includes/widgets/halim-theater-movie-widget.php:137
+#: includes/widgets/halim-tv-series-widget.php:136
+#: includes/widgets/halim-tv-shows-widget.php:137
+msgid "4 video/row"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:265
+msgid "6 item/row"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:138
+#: includes/widgets/halim-latest-post.php:94
+#: includes/widgets/halim-movies-widget.php:137
+#: includes/widgets/halim-theater-movie-widget.php:137
+#: includes/widgets/halim-tv-series-widget.php:136
+#: includes/widgets/halim-tv-shows-widget.php:137
+msgid "6 video/row"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:201
+msgid "70"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:353
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\"%3$s\" class=\"thickbox\" "
+"title=\"%4s\">Check out what's new</a> or <a href=\"%5$s\"%6$s>update now</a>"
+"."
+msgstr ""
+
+#: pages/page-az-listing.php:34
+msgid "A-Z List"
+msgstr ""
+
+#: templates/letter.tpl.php:7
+msgid "A-Z list"
+msgstr ""
+
+#. Name of the template
+msgid "A-Z Listing"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:337
+msgid "Activate License"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:474
+#, php-format
+msgid "Activate Your %s License Key"
+msgstr ""
+
+#: includes/custom-post-type.php:195 includes/custom-post-type.php:196
+#: includes/custom-post-type.php:197
+#: templates/single-layout-1/single.info.php:86
+#: templates/single-layout-2/single.info.php:108
+#: core/src/HaLimCore/Hooks.php:46
+#: includes/functions/classes/Core.class.php:110
+msgid "Actors"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:21
+msgid "Add a new movie"
+msgstr ""
+
+#: includes/download-metaboxes.php:135
+msgid "Add another"
+msgstr ""
+
+#: includes/custom-post-type.php:199 includes/custom-post-type.php:225
+#: includes/custom-post-type.php:249 includes/custom-post-type.php:274
+#: includes/functions/hackFunctions.php:174
+#: includes/functions/hackFunctions.php:186
+msgid "Add new"
+msgstr ""
+
+#: includes/custom-post-type.php:304
+msgid "Add New Item"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:187
+#: includes/functions/hackFunctions.php:201
+msgid "Add new movie"
+msgstr ""
+
+#: includes/custom-post-type.php:102
+msgid "Add new video"
+msgstr ""
+
+#: includes/custom-post-type.php:11
+msgid "Add news"
+msgstr ""
+
+#: includes/custom-post-type.php:309
+msgid "Add or remove items"
+msgstr ""
+
+#: templates/single.full.php:29 templates/single-layout-1/single.info.php:28
+#: templates/single-layout-1/single.watch.php:23
+#: templates/single-layout-2/single.info.php:44
+#: templates/single-layout-2/single.watch.php:23
+#: templates/single-layout-2/single.watch2.php:97
+msgid "Add to favorite"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:33
+msgid "Add to widget \"Carousel Slider\""
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:32
+msgid "Add to widget \"One Slide\" (Slider one by one)"
+msgstr ""
+
+#: includes/download-metaboxes.php:221
+msgid "Added"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:126
+msgid "Adult content (18+)"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:40
+msgid "All"
+msgstr ""
+
+#: includes/custom-post-type.php:45 includes/custom-post-type.php:135
+msgid "All categories"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:160
+#: includes/widgets/halim-category-widget.php:156
+msgid "All category"
+msgstr ""
+
+#: includes/custom-post-type.php:300
+msgid "All Items"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:173
+msgid "All posts"
+msgstr ""
+
+#: includes/theme-setup.php:114
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/child-theme.php:29
+msgid ""
+"Also inside of your folder, create another file called <code>functions."
+"php</code> (the name is NOT optional)."
+msgstr ""
+
+#. Name of the template
+msgid "API"
+msgstr ""
+
+#: pages/page-download.php:133
+msgid "Are you going to"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:118
+#: includes/framework/config/metabox.config.php:346
+msgid "Auto save images"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:120
+#: includes/framework/config/metabox.config.php:348
+msgid "Auto save images to server"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:119
+#: includes/framework/config/metabox.config.php:347
+msgid ""
+"Automatically find images in posts and save them to the your server and wp "
+"media library"
+msgstr ""
+
+#: single.php:45
+msgid "Automatically resumes your videos from where you played them last at"
+msgstr ""
+
+#: functions.php:126 templates/single-layout-2/single.watch2.php:63
+msgid "Autoplay next episode"
+msgstr ""
+
+#: single.php:59
+msgid "Autoplay next episode, please wait..."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:66
+msgid "Awesomeness!"
+msgstr ""
+
+#: author.php:60
+msgid "Bookmark list"
+msgstr ""
+
+#: header.php:71
+msgid "Bookmarks"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:112
+msgid "box on right sidebar"
+msgstr ""
+
+#: includes/functions.php:914
+msgid "Broken Movie"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:154
+#: includes/widgets/halim-video-box-widget.php:115
+#: core/src/HaLimCore/Hooks.php:45
+msgid "Categories"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:175
+#: includes/widgets/halim-advanced-widget.php:174
+#: includes/widgets/halim-advanced-widget.php:275
+#: includes/widgets/halim-carousel-slider-widget.php:115
+#: includes/widgets/halim-carousel-slider-widget.php:158
+#: includes/widgets/halim-latest-post.php:104
+#: includes/widgets/halim-news-box-widget.php:122
+#: includes/widgets/halim-related-video-widget.php:170
+#: includes/widgets/halim-tag-cloud-widget.php:37
+msgid "Category"
+msgstr ""
+
+#: author.php:45
+msgid "Change password"
+msgstr ""
+
+#: core/src/HaLimCore/Ajax.php:636
+msgid "Choose Episode"
+msgstr ""
+
+#: includes/custom-post-type.php:310
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/download-metaboxes.php:217
+msgid "Click"
+msgstr ""
+
+#: pages/page-download.php:116
+msgid "Click on the button to continue"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:482
+msgid "Click the \"Save License Key Changes\" button."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:483
+msgid "Click the new \"Activate License\" button."
+msgstr ""
+
+#: templates/single-layout-1/single.info.php:74
+msgid "Click to Play"
+msgstr ""
+
+#: single.php:74
+msgid "Close"
+msgstr ""
+
+#: single.php:57
+msgid "Collapse"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:175
+#: includes/framework/config/metabox.config.php:60
+msgid "Completed"
+msgstr ""
+
+#. Name of the template
+#: pages/page-completed.php:16
+msgid "Completed Films"
+msgstr ""
+
+#: single.php:48
+msgid "Continue watching"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:132
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:94 templates/single-layout-2/single.info.php:63
+#: templates/single-layout-2/single.info.php:63
+#: templates/single-layout-2/single.watch2.php:31
+msgid "Copyright infringement!"
+msgstr ""
+
+#: includes/custom-post-type.php:270 includes/custom-post-type.php:272
+#: core/src/HaLimCore/Hooks.php:49
+msgid "Countries"
+msgstr ""
+
+#: includes/custom-post-type.php:271 includes/functions/ajaxFunctions.php:353
+#: includes/functions/ajaxFunctions.php:355
+#: templates/single-layout-1/single.info.php:80
+#: templates/single-layout-2/single.info.php:102
+#: includes/functions/classes/Core.class.php:76
+#: includes/functions/classes/Core.class.php:288
+msgid "Country"
+msgstr ""
+
+#: includes/theme-setup.php:115
+msgid "Create account"
+msgstr ""
+
+#. Name of the template
+msgid "Custom Embed Player"
+msgstr ""
+
+#: core/src/HaLimCore/Hooks.php:50
+msgid "Date"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:31
+msgid "Day"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:319
+msgid "day ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:327
+msgid "days ago"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:336
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:256
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:109
+#: includes/widgets/halim-movies-widget.php:120
+#: includes/widgets/halim-theater-movie-widget.php:120
+#: includes/widgets/halim-tv-series-widget.php:119
+#: includes/widgets/halim-tv-shows-widget.php:120
+msgid "Default Format"
+msgstr ""
+
+#: core/src/HaLimCore/Hooks.php:44
+msgid "Details"
+msgstr ""
+
+#: templates/single-layout-1/single.info.php:83
+#: templates/single-layout-2/single.info.php:105
+#: includes/functions/classes/Core.class.php:63
+msgid "Director"
+msgstr ""
+
+#: includes/custom-post-type.php:221 includes/custom-post-type.php:222
+#: includes/custom-post-type.php:223 core/src/HaLimCore/Hooks.php:47
+msgid "Directors"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:9
+msgid "Display all tags cloud. Drag and Drop on Footer Widget"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:112
+msgid "Display by"
+msgstr ""
+
+#: includes/widgets/halim-trailer-widget.php:10
+msgid "Display latest movie trailer"
+msgstr ""
+
+#: includes/widgets/halim-latest-update.php:11
+#: includes/widgets/halim-vertical-widget.php:11
+msgid "Display Latest Updated Movie & TV Series"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:11
+msgid "Display list news by category"
+msgstr ""
+
+#: includes/widgets/halim-video-box-widget.php:10
+msgid "Display list Videos"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:11
+msgid "Display popular post by day, week, month and alltime"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:11
+msgid "Display popular post by movie"
+msgstr ""
+
+#: includes/widgets/halim-popular-tv-series.php:11
+msgid "Display popular post by tv series"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:33
+msgid "Display post view?"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:167
+msgid "Display posts by"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:11
+msgid "Display posts by Category"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:11
+msgid "Display posts by category, latest, most viewed, last update"
+msgstr ""
+
+#: includes/widgets/halim-movies-widget.php:12
+msgid "Display posts by movies"
+msgstr ""
+
+#: includes/widgets/halim-theater-movie-widget.php:12
+msgid "Display posts by Theater Movies"
+msgstr ""
+
+#: includes/widgets/halim-tv-shows-widget.php:12
+msgid "Display posts by TV Shows"
+msgstr ""
+
+#: includes/widgets/halim-tv-series-widget.php:11
+msgid "Display posts by TV-Series"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:11
+msgid "Display posts with Carousel slider"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:11
+msgid "Display related movies"
+msgstr ""
+
+#: includes/widgets/halim-latest-post.php:11
+msgid "Display the latest movie"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:9
+msgid ""
+"Displays recent viewed posts by a visitor as a responsive sidebar widget"
+msgstr ""
+
+#: single.php:63
+msgid "Don't show again"
+msgstr ""
+
+#: includes/download-metaboxes.php:202 pages/page-download.php:13
+#: pages/page-download.php:114
+msgid "Download"
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:96
+msgid "Duration"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:188
+msgid "Edit"
+msgstr ""
+
+#: includes/functions.php:923
+msgid "Edit Episode"
+msgstr ""
+
+#: includes/custom-post-type.php:305
+msgid "Edit Item"
+msgstr ""
+
+#: includes/theme-setup.php:118
+msgid "Email"
+msgstr ""
+
+#. Name of the template
+msgid "Embed Player"
+msgstr ""
+
+#: templates/child-theme.php:46
+msgid "Enjoy!"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:481
+msgid "Enter your license key."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:333
+msgid "Enter your theme license key."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:189
+#: includes/functions/classes/Core.class.php:89
+msgid "Episode"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:69
+#: includes/functions/ajaxFunctions.php:149
+#: includes/functions/ajaxFunctions.php:232
+#: includes/functions/classes/Core.class.php:47
+msgid "episode"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:191
+msgid "Episode 20, Tập 20"
+msgstr ""
+
+#: includes/functions/metaboxes.php:88 includes/functions/metaboxes.php:89
+msgid "Episode Slug"
+msgstr ""
+
+#: includes/custom-post-type.php:298
+msgid "Episode type"
+msgstr ""
+
+#: includes/custom-post-type.php:299
+msgid "Episode Types"
+msgstr ""
+
+#: includes/custom-post-type.php:297
+msgid "Episode types"
+msgstr ""
+
+#: templates/single-layout-1/single.info.php:62
+#: templates/single-layout-2/single.info.php:60
+#: core/src/HaLimCore/Hooks.php:407
+msgid "Episodes"
+msgstr ""
+
+#: single.php:64
+msgid "EXIT"
+msgstr ""
+
+#: functions.php:131 single.php:56
+#: templates/single-layout-2/single.watch2.php:67
+msgid "Expand"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:342
+#, php-format
+msgid "Expires %s."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:112
+msgid "Feature Image"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:115
+msgid "Featured"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:100
+msgid "Featured image URL"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:69
+msgid "Fetch info URL"
+msgstr ""
+
+#: includes/download-metaboxes.php:209
+msgid "File Size"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:389
+msgid "Filter movie"
+msgstr ""
+
+#. Name of the template
+msgid "Filter Movies"
+msgstr ""
+
+#: templates/search-filter.php:29
+msgid "Filter movies"
+msgstr ""
+
+#: includes/theme-setup.php:10
+msgid "Footer Menu"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:330
+#: includes/framework/config/metabox.config.php:41
+msgid "Formality"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:328
+msgid "Formats"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:378
+#: includes/functions/ajaxFunctions.php:380
+#: templates/single-layout-2/single.info.php:111
+#: includes/functions/classes/Core.class.php:102
+#: includes/functions/classes/Core.class.php:289
+msgid "Genres"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:181
+msgid "Grid box"
+msgstr ""
+
+#. Author of the theme
+msgid "HaLim"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:8
+msgid "HaLim Advanced Widget"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:8
+msgid "HaLim Carousel Slide"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:8
+msgid "HaLim Categories Widget"
+msgstr ""
+
+#: includes/widgets/halim-latest-post.php:8
+msgid "HaLim Latest Post Widget"
+msgstr ""
+
+#: includes/functions.php:881
+msgid "HaLim Menu"
+msgstr ""
+
+#: includes/widgets/halim-movies-widget.php:9
+msgid "HaLim Movies Widget"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:8
+msgid "HaLim News Box"
+msgstr ""
+
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:8
+msgid "HaLim One Slide (Slider one by one)"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:8
+msgid "HaLim Polpular Movies"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:8
+msgid "Halim Related Movie"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:8
+msgid "HaLim Tag Cloud"
+msgstr ""
+
+#: includes/widgets/halim-theater-movie-widget.php:9
+msgid "HaLim Theater Movie Widget"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:8
+msgid "HaLim TOP Movies"
+msgstr ""
+
+#: includes/widgets/halim-popular-tv-series.php:8
+msgid "HaLim TOP TV Series"
+msgstr ""
+
+#: includes/widgets/halim-trailer-widget.php:7
+msgid "HaLim Trailer Widget"
+msgstr ""
+
+#: includes/widgets/halim-tv-shows-widget.php:9
+msgid "HaLim TV Show Widget"
+msgstr ""
+
+#: includes/widgets/halim-tv-series-widget.php:8
+msgid "HaLim TV-Series Widget"
+msgstr ""
+
+#: includes/widgets/halim-vertical-widget.php:8
+msgid "HaLim Vertical Widget"
+msgstr ""
+
+#: includes/widgets/halim-video-box-widget.php:7
+msgid "HaLim Video Box"
+msgstr ""
+
+#. Name of the theme
+msgid "HaLimMovie"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"HaLimMovie is one of the best wordpress theme for movies and tv-series "
+"content"
+msgstr ""
+
+#: includes/theme-setup.php:9
+msgid "Header Menu"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:320
+msgid "hour ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:328
+msgid "hours ago"
+msgstr ""
+
+#: templates/child-theme.php:9
+#, php-format
+msgid "How to Create a Child Theme for %1$s?"
+msgstr ""
+
+#. URI of the theme
+#. Author URI of the theme
+msgid "http://halimthemes.com"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:69
+msgid "If you face any problem, head over to"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:169
+#: includes/framework/config/metabox.config.php:171
+msgid "IMBD Rating"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:179
+#: includes/framework/config/metabox.config.php:181
+msgid "IMBD Votes"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:87
+msgid "Input image url or use Upload button."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:74
+msgid "Input url to fetch info."
+msgstr ""
+
+#: templates/child-theme.php:13
+msgid "Inside of your new <code>style.css</code> file, add the following CSS:"
+msgstr ""
+
+#: templates/child-theme.php:12
+msgid ""
+"Inside of your new folder, create a file called <code>style.css</code> (the "
+"name is NOT optional)."
+msgstr ""
+
+#: templates/child-theme.php:30
+msgid ""
+"Inside of your new, blank <code>functions.php</code> file, add the following "
+"PHP:"
+msgstr ""
+
+#: includes/custom-post-type.php:315
+msgid "Items list"
+msgstr ""
+
+#: includes/custom-post-type.php:316
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:69
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/download-metaboxes.php:213
+msgid "Language"
+msgstr ""
+
+#. Name of the template
+#: pages/page-lastupdate.php:17 includes/widgets/halim-movies-widget.php:36
+#: includes/widgets/halim-movies-widget.php:123
+#: includes/widgets/halim-theater-movie-widget.php:36
+#: includes/widgets/halim-theater-movie-widget.php:123
+#: includes/widgets/halim-tv-series-widget.php:35
+#: includes/widgets/halim-tv-series-widget.php:122
+#: includes/widgets/halim-tv-shows-widget.php:36
+#: includes/widgets/halim-tv-shows-widget.php:123
+#: includes/widgets/halim-vertical-widget.php:35
+#: includes/widgets/halim-vertical-widget.php:73
+#: core/src/HaLimCore/Hooks.php:52
+msgid "Last Update"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:321
+#: includes/widgets/halim-advanced-widget.php:176
+msgid "Last update"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:319
+#: includes/widgets/halim-advanced-widget.php:170
+#: includes/widgets/halim-latest-post.php:20
+#: includes/widgets/halim-movies-widget.php:33
+#: includes/widgets/halim-movies-widget.php:123
+#: includes/widgets/halim-theater-movie-widget.php:33
+#: includes/widgets/halim-theater-movie-widget.php:123
+#: includes/widgets/halim-tv-series-widget.php:32
+#: includes/widgets/halim-tv-series-widget.php:122
+#: includes/widgets/halim-tv-shows-widget.php:33
+#: includes/widgets/halim-tv-shows-widget.php:123
+#: includes/widgets/halim-vertical-widget.php:32
+#: includes/widgets/halim-vertical-widget.php:70
+msgid "Latest"
+msgstr ""
+
+#: includes/functions.php:759
+msgid "Latest episode"
+msgstr ""
+
+#: includes/widgets/halim-latest-update.php:8
+msgid "Latest update movie"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:261
+#: includes/widgets/halim-related-video-widget.php:178
+msgid "Layout"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:134
+#: includes/widgets/halim-latest-post.php:90
+#: includes/widgets/halim-movies-widget.php:133
+#: includes/widgets/halim-theater-movie-widget.php:133
+#: includes/widgets/halim-tv-series-widget.php:132
+#: includes/widgets/halim-tv-shows-widget.php:133
+msgid "Layout:"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:335
+msgid "License Action"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:479
+msgid "License activation instructions"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:348
+msgid "License is inactive."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:334
+msgid "License Key"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:345
+#, php-format
+msgid "License key expired %s."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:346
+msgid "License key has expired."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:341
+msgid "License key is active."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:349
+msgid "License key is disabled."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:347
+msgid "License keys do not match."
+msgstr ""
+
+#: includes/functions.php:891
+msgid "License Manager"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:338
+#: includes/update-checker/Puc/v4p9/Factory.php:351
+msgid "License status is unknown."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:343
+msgid "Lifetime License."
+msgstr ""
+
+#: functions.php:135 single.php:55
+#: templates/single-layout-2/single.watch2.php:70
+msgid "Light Off"
+msgstr ""
+
+#: single.php:54
+msgid "Light On"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:184
+msgid "List Movie"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:172
+msgid "List movies"
+msgstr ""
+
+#: pages/page-filter-movies.php:94
+msgid "Lists films"
+msgstr ""
+
+#: single.php:58
+msgid "Loading player, please wait..."
+msgstr ""
+
+#: includes/theme-setup.php:111 includes/functions/classes/Core.class.php:195
+msgid "Login"
+msgstr ""
+
+#: includes/theme-setup.php:122 includes/functions/classes/Core.class.php:206
+msgid "Login with"
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:173
+msgid "Logout"
+msgstr ""
+
+#: includes/theme-setup.php:113
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:23
+msgid "Manage"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:4
+msgid "Manage Episode"
+msgstr ""
+
+#: includes/functions.php:902
+msgid "Manage Episodes"
+msgstr ""
+
+#: header.php:87
+msgid "Menu"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:321
+msgid "minute ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:329
+msgid "minutes ago"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:37
+msgid "Month"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:318
+msgid "month ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:326
+msgid "months ago"
+msgstr ""
+
+#: pages/page-feature-film.php:18
+msgid "Most Viewed"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:320
+#: includes/widgets/halim-advanced-widget.php:177
+#: includes/widgets/halim-movies-widget.php:39
+#: includes/widgets/halim-theater-movie-widget.php:39
+#: includes/widgets/halim-tv-series-widget.php:38
+#: includes/widgets/halim-tv-shows-widget.php:39
+#: includes/widgets/halim-vertical-widget.php:38
+#: includes/widgets/halim-vertical-widget.php:76
+msgid "Most viewed"
+msgstr ""
+
+#. Name of the template
+msgid "Most Viewed Movie"
+msgstr ""
+
+#: includes/widgets/halim-movies-widget.php:123
+#: includes/widgets/halim-theater-movie-widget.php:123
+#: includes/widgets/halim-tv-series-widget.php:122
+#: includes/widgets/halim-tv-shows-widget.php:123
+msgid "Most watched"
+msgstr ""
+
+#: includes/theme-setup.php:52 includes/functions/hackFunctions.php:185
+#: includes/functions/hackFunctions.php:189
+#: includes/widgets/halim-category-widget.php:31
+#: includes/widgets/halim-category-widget.php:112
+#: includes/widgets/halim-category-widget.php:124
+#: includes/widgets/halim-latest-update.php:89
+#: includes/widgets/halim-vertical-widget.php:140
+#: includes/framework/config/metabox.config.php:44
+msgid "Movie"
+msgstr ""
+
+#: taxonomy-actor.php:10
+msgid "Movie by actor"
+msgstr ""
+
+#: taxonomy-country.php:11
+msgid "Movie by country"
+msgstr ""
+
+#: taxonomy-director.php:11
+msgid "Movie by director"
+msgstr ""
+
+#: templates/single.full.php:37 templates/single-layout-1/single.watch.php:31
+#: templates/single-layout-2/single.info.php:157
+#: templates/single-layout-2/single.watch.php:31
+#: templates/single-layout-2/single.watch2.php:105
+msgid "Movie plot"
+msgstr ""
+
+#. Name of the template
+#: pages/page-movies.php:16 includes/functions/ajaxFunctions.php:331
+#: includes/widgets/halim-advanced-widget.php:179
+#: includes/widgets/halim-vertical-widget.php:29
+msgid "Movies"
+msgstr ""
+
+#: taxonomy-release.php:10
+msgid "Movies of"
+msgstr ""
+
+#: single.php:73
+msgid "Name or Email"
+msgstr ""
+
+#: includes/custom-post-type.php:303
+msgid "New Item Name"
+msgstr ""
+
+#. Name of the template
+#: pages/page-latest.php:17
+msgid "Newest movies"
+msgstr ""
+
+#: includes/custom-post-type.php:8 includes/custom-post-type.php:9
+#: includes/custom-post-type.php:10 includes/custom-post-type.php:14
+#: includes/widgets/halim-news-box-widget.php:105
+#: includes/widgets/halim-news-box-widget.php:114
+msgid "News"
+msgstr ""
+
+#: includes/custom-post-type.php:42 includes/custom-post-type.php:44
+msgid "News categories"
+msgstr ""
+
+#: includes/custom-post-type.php:43
+msgid "News category"
+msgstr ""
+
+#: includes/custom-post-type.php:75
+msgid "News tag"
+msgstr ""
+
+#: includes/custom-post-type.php:74 includes/custom-post-type.php:76
+msgid "News tags"
+msgstr ""
+
+#: functions.php:121 templates/single-layout-2/single.watch2.php:58
+msgid "Next"
+msgstr ""
+
+#: includes/custom-post-type.php:314
+msgid "No items"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:192
+#: includes/functions/hackFunctions.php:193
+msgid "No result"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:266
+msgid "No sidebar --"
+msgstr ""
+
+#: includes/custom-post-type.php:313
+msgid "Not Found"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:219
+msgid "Notification / Note"
+msgstr ""
+
+#: templates/single-layout-2/single.info.php:94
+msgid "Now showing"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:286
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:121
+#: includes/widgets/halim-carousel-slider-widget.php:168
+#: includes/widgets/halim-category-widget.php:164
+#: includes/widgets/halim-latest-post.php:115
+#: includes/widgets/halim-latest-update.php:98
+#: includes/widgets/halim-movies-widget.php:153
+#: includes/widgets/halim-news-box-widget.php:133
+#: includes/widgets/halim-popular-movie.php:91
+#: includes/widgets/halim-popular-tab-widget.php:96
+#: includes/widgets/halim-popular-tv-series.php:87
+#: includes/widgets/halim-related-video-widget.php:190
+#: includes/widgets/halim-theater-movie-widget.php:153
+#: includes/widgets/halim-trailer-widget.php:76
+#: includes/widgets/halim-tv-series-widget.php:152
+#: includes/widgets/halim-tv-shows-widget.php:153
+#: includes/widgets/halim-vertical-widget.php:149
+#: includes/widgets/halim-video-box-widget.php:126
+msgid "Number of post to show"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:28
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:55
+msgid "Number of tag to show"
+msgstr ""
+
+#: functions.php:126 templates/single-layout-2/single.watch2.php:63
+msgid "On"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:406
+msgid "Once hourly"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:59
+msgid "Ongoing"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:451
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:29
+msgid "Options"
+msgstr ""
+
+#: includes/theme-setup.php:124 includes/functions/welcomeMsg.php:23
+msgid "or"
+msgstr ""
+
+#: single.php:53
+msgid "or click on the buttons below"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:139
+#: includes/framework/config/metabox.config.php:141
+msgid "Original title"
+msgstr ""
+
+#: author.php:42
+msgid "Overview"
+msgstr ""
+
+#. Name of the template
+msgid "Page Builder Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Page Download"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:34
+msgid "Paging the episode list"
+msgstr ""
+
+#: includes/custom-post-type.php:301
+msgid "Parent Item"
+msgstr ""
+
+#: includes/custom-post-type.php:302
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/theme-setup.php:120
+msgid "Password"
+msgstr ""
+
+#: single.php:47
+msgid "Playback"
+msgstr ""
+
+#: single.php:46
+msgid "Playback from the beginning?"
+msgstr ""
+
+#: core/src/HaLimCore/Ajax.php:165
+msgid "Please enter a keyword"
+msgstr ""
+
+#: pages/page-download.php:110
+msgid "Please wait until the time runs out"
+msgstr ""
+
+#: includes/functions.php:993
+msgid "plugin is required. Please activate it before activating this theme!"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:86
+msgid "Popular"
+msgstr ""
+
+#: includes/custom-post-type.php:311
+msgid "Popular Items"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:153
+msgid "Post item per row"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:102
+msgid "Post thumbnail URL"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:82
+msgid "Poster image URL"
+msgstr ""
+
+#: header.php:61
+msgid "Press Enter to search"
+msgstr ""
+
+#: functions.php:120 templates/single-layout-2/single.watch2.php:57
+msgid "Prev"
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:172
+msgid "Profile"
+msgstr ""
+
+#: author.php:13
+msgid "Profiles"
+msgstr ""
+
+#: includes/download-metaboxes.php:205
+#: includes/framework/config/metabox.config.php:209
+msgid "Quality"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:241
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:116
+#: includes/widgets/halim-category-widget.php:149
+#: includes/widgets/halim-latest-post.php:85
+#: includes/widgets/halim-movies-widget.php:148
+#: includes/widgets/halim-theater-movie-widget.php:148
+#: includes/widgets/halim-tv-series-widget.php:147
+#: includes/widgets/halim-tv-shows-widget.php:148
+msgid "Random post"
+msgstr ""
+
+#: includes/theme-setup.php:112
+msgid "Register"
+msgstr ""
+
+#: includes/theme-setup.php:123
+msgid "Register with"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:167
+msgid "Related by"
+msgstr ""
+
+#: single-news.php:35
+msgid "Related news"
+msgstr ""
+
+#: single-video.php:43
+msgid "Related videos"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:366
+#: includes/functions/ajaxFunctions.php:368 core/src/HaLimCore/Hooks.php:48
+msgid "Release"
+msgstr ""
+
+#: includes/custom-post-type.php:245 includes/custom-post-type.php:246
+#: includes/custom-post-type.php:247
+msgid "Release date"
+msgstr ""
+
+#: single.php:49
+msgid "Reload Player"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:94
+msgid "Remote upload the poster image to server"
+msgstr ""
+
+#: includes/download-metaboxes.php:108 includes/download-metaboxes.php:130
+msgid "Remove"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:339
+msgid "Renew?"
+msgstr ""
+
+#: functions.php:137 single.php:72
+#: templates/single-layout-2/single.watch2.php:72
+msgid "Report"
+msgstr ""
+
+#: includes/theme-setup.php:116
+msgid "Reset captcha"
+msgstr ""
+
+#: includes/theme-setup.php:121
+msgid "Reset Password"
+msgstr ""
+
+#: core/src/HaLimCore/Ajax.php:136
+msgid "Result for keyword"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:159
+msgid "Runtime"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:161
+msgid "Runtime (90 min)"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:191
+msgid "Search"
+msgstr ""
+
+#: includes/custom-post-type.php:312
+msgid "Search Items"
+msgstr ""
+
+#: search.php:9 search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:322
+msgid "second ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:330
+msgid "seconds ago"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:29
+msgid "See full changelogs"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:41
+#: includes/widgets/halim-video-box-widget.php:37
+msgid "See more"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:118
+msgid "See more page URL"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:108
+#: includes/widgets/halim-video-box-widget.php:111
+msgid "See more URL"
+msgstr ""
+
+#: includes/widgets/halim-category-widget.php:121
+msgid "Select display format"
+msgstr ""
+
+#: includes/theme-setup.php:108
+msgid "Sending user info, please wait..."
+msgstr ""
+
+#: includes/custom-post-type.php:308
+msgid "Separate items with commas"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:110
+msgid "Set as featured image"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:111
+msgid "Set as featured image and save image to server"
+msgstr ""
+
+#: functions.php:142 templates/single-layout-2/single.watch2.php:77
+msgid "Share"
+msgstr ""
+
+#: templates/single.full.php:94 templates/single-layout-1/single.info.php:136
+#: templates/single-layout-2/single.info.php:164
+msgid "Show less"
+msgstr ""
+
+#: templates/single.full.php:94 templates/single-layout-1/single.info.php:136
+#: templates/single-layout-1/single.info.php:136
+#: templates/single-layout-2/single.info.php:164
+msgid "Show more"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:48
+msgid "Show number of largest"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:42
+msgid "Show number of smallest"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:230
+msgid "Showtime movies"
+msgstr ""
+
+#. id
+#: includes/widgets/halim-widgets.php:224
+msgid "Sidebar"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:350
+msgid "Site is inactive."
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:181
+msgid "Slide show"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:316
+#: includes/functions/ajaxFunctions.php:318
+msgid "Sort by"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:341
+#: includes/functions/ajaxFunctions.php:343
+#: includes/framework/config/metabox.config.php:55
+msgid "Status"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:246
+msgid "Sub category"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:170
+msgid "Tag"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:22
+msgid "Tag Cloud"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:176
+#: includes/widgets/halim-tag-cloud-widget.php:36
+#: core/src/HaLimCore/Hooks.php:51
+msgid "Tags"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:34
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/theme-setup.php:100
+msgid "Thank you for rating!"
+msgstr ""
+
+#: single.php:70
+msgid ""
+"Thank you for sending error messages. We will fix the problem in the "
+"shortest time possible."
+msgstr ""
+
+#: includes/theme-setup.php:55
+msgid "Theater Movie"
+msgstr ""
+
+#. Name of the template
+#: pages/page-theater-movie.php:16 includes/functions/ajaxFunctions.php:334
+#: includes/widgets/halim-category-widget.php:31
+#: includes/widgets/halim-category-widget.php:112
+#: includes/widgets/halim-category-widget.php:124
+#: includes/framework/config/metabox.config.php:47
+msgid "Theater movie"
+msgstr ""
+
+#: templates/single-layout-2/single.info.php:49
+msgid "This content is not available in your country"
+msgstr ""
+
+#: functions.php:87 templates/single-layout-2/single.watch2.php:24
+msgid "This content is not available in your country!"
+msgstr ""
+
+#: index.php:12 sidebar.php:9
+msgid "This is widget area. Go to Appearance -> Widgets to add some widgets."
+msgstr ""
+
+#: single.php:51
+msgid "This video file cannot be played."
+msgstr ""
+
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:11
+msgid ""
+"This widget displays posts specified in the post page. Drag the widget into "
+"the \"One Slide (Slider one by one)\" widget area."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:112
+msgid "This will be upload the image and will display on the"
+msgstr ""
+
+#: templates/child-theme.php:11
+msgid ""
+"Through FTP, navigate to <code>your_website/wp-content/themes/</code> and in "
+"that directory, create a new folder as the name of your child theme. "
+"Something like <code>halimmovie-child</code> is perfect."
+msgstr ""
+
+#: core/src/HaLimCore/Hooks.php:43
+msgid "Thumbs"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:145
+#: includes/widgets/halim-advanced-widget.php:158
+#: includes/widgets/halim-carousel-slider-widget.php:95
+#: includes/widgets/halim-carousel-slider-widget.php:104
+#: includes/widgets/halim-category-widget.php:105
+#: includes/widgets/halim-latest-post.php:72
+#: includes/widgets/halim-latest-post.php:79
+#: includes/widgets/halim-latest-update.php:80
+#: includes/widgets/halim-movies-widget.php:116
+#: includes/widgets/halim-popular-movie.php:86
+#: includes/widgets/halim-popular-tab-widget.php:91
+#: includes/widgets/halim-popular-tv-series.php:82
+#: includes/widgets/halim-recent-viewed-post.php:24
+#: includes/widgets/halim-related-video-widget.php:160
+#: includes/widgets/halim-tag-cloud-widget.php:30
+#: includes/widgets/halim-theater-movie-widget.php:116
+#: includes/widgets/halim-trailer-widget.php:71
+#: includes/widgets/halim-tv-series-widget.php:115
+#: includes/widgets/halim-tv-shows-widget.php:116
+#: includes/widgets/halim-vertical-widget.php:131
+#: includes/widgets/halim-video-box-widget.php:107
+#: core/src/HaLimCore/Hooks.php:42
+msgid "Title"
+msgstr ""
+
+#: single.php:52
+msgid "To continue watching, please click on the \"Reload Player\" button"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:81
+msgid "TOP Movies"
+msgstr ""
+
+#: includes/widgets/halim-popular-tv-series.php:77
+msgid "TOP Series"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:199
+msgid "Total Episode"
+msgstr ""
+
+#: functions.php:104 templates/single-layout-1/single.info.php:60
+#: templates/single-layout-2/single.info.php:41
+#: templates/single-layout-2/single.info.php:73
+#: templates/single-layout-2/single.watch2.php:41
+#: includes/framework/config/metabox.config.php:58
+msgid "Trailer"
+msgstr ""
+
+#. Name of the template
+#: includes/theme-setup.php:53 pages/page-tv-series.php:19
+#: includes/functions/ajaxFunctions.php:332
+#: includes/widgets/halim-advanced-widget.php:178
+#: includes/widgets/halim-category-widget.php:31
+#: includes/widgets/halim-category-widget.php:112
+#: includes/widgets/halim-category-widget.php:124
+#: includes/widgets/halim-latest-update.php:89
+#: includes/widgets/halim-vertical-widget.php:67
+#: includes/widgets/halim-vertical-widget.php:140
+msgid "TV Series"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:45
+msgid "TV series"
+msgstr ""
+
+#. Name of the template
+#: includes/theme-setup.php:54 pages/page-tvshows.php:16
+#: includes/functions/ajaxFunctions.php:333
+#: includes/widgets/halim-advanced-widget.php:180
+#: includes/widgets/halim-category-widget.php:31
+#: includes/widgets/halim-category-widget.php:112
+#: includes/widgets/halim-category-widget.php:124
+msgid "TV Shows"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:46
+msgid "TV shows"
+msgstr ""
+
+#: includes/widgets/halim-latest-update.php:86
+#: includes/widgets/halim-vertical-widget.php:137
+msgid "Type"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:340
+msgid "unlimited"
+msgstr ""
+
+#: author.php:125
+msgid "Update"
+msgstr ""
+
+#: includes/custom-post-type.php:306
+msgid "Update Item"
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:352
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to "
+"stop, 'OK' to update."
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:84
+msgid "Upload or paste your poster image url"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:93
+msgid "Upload Poster image"
+msgstr ""
+
+#: includes/theme-setup.php:117
+msgid "Username"
+msgstr ""
+
+#: includes/theme-setup.php:119
+msgid "Username or Email"
+msgstr ""
+
+#: includes/custom-post-type.php:100
+msgid "Video"
+msgstr ""
+
+#: includes/custom-post-type.php:132 includes/custom-post-type.php:134
+msgid "Video Categories"
+msgstr ""
+
+#: includes/custom-post-type.php:133
+msgid "Video Category"
+msgstr ""
+
+#: includes/custom-post-type.php:165
+msgid "Video tag"
+msgstr ""
+
+#: includes/custom-post-type.php:164 includes/custom-post-type.php:166
+msgid "Video tags"
+msgstr ""
+
+#: includes/custom-post-type.php:99 includes/custom-post-type.php:101
+#: includes/custom-post-type.php:105
+msgid "Videos"
+msgstr ""
+
+#: functions.php:139 single-news.php:10 single-video.php:20
+#: includes/widgets/halim-recent-viewed-post.php:128
+#: templates/single-layout-2/single.watch2.php:74
+#: core/src/HaLimCore/Hooks.php:85
+#: includes/functions/classes/Core.class.php:335
+msgid "view"
+msgstr ""
+
+#: includes/custom-post-type.php:198 includes/custom-post-type.php:224
+#: includes/custom-post-type.php:248 includes/custom-post-type.php:273
+#: includes/widgets/halim-carousel-slider-widget.php:37
+#: includes/widgets/halim-latest-post.php:32
+msgid "View all"
+msgstr ""
+
+#: core/src/HaLimCore/Ajax.php:379
+#, php-format
+msgid "View all %s post »"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:114
+msgid "View all post »"
+msgstr ""
+
+#: includes/custom-post-type.php:307
+msgid "View Item"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:163
+msgid "View more URL"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:190
+msgid "View post"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:206
+msgid "votes"
+msgstr ""
+
+#: templates/single-layout-1/single.info.php:56
+#: templates/single-layout-2/single.info.php:59
+msgid "Watch"
+msgstr ""
+
+#: single.php:50
+msgid ""
+"We are unable to find the video you are looking for. There could be several "
+"reasons for this, for example it got removed by the owner!"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:34
+msgid "Week"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:14
+msgid "We’ve assembled some links to get you started"
+msgstr ""
+
+#: templates/child-theme.php:45
+msgid ""
+"With your child theme activated, you can edit its stylesheet all you like. "
+"You may also add custom functions to your new functions file."
+msgstr ""
+
+#: templates/child-theme.php:44
+msgid ""
+"With your new child theme folder in place, the above CSS pasted inside of "
+"your <code>style.css</code> file, and the above PHP pasted inside of your "
+"<code>functions.php</code> file, go back to your WordPress dashboard and "
+"navigate to \"Appearance -> Themes\" and locate your new theme (you'll see "
+"the name you chose). Activate your theme."
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:317
+msgid "year ago"
+msgstr ""
+
+#: includes/functions/classes/Helper.class.php:325
+msgid "years ago"
+msgstr ""
+
+#: templates/child-theme.php:50
+#, php-format
+msgid "You are currently using a child theme for %s."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:68
+msgid ""
+"You can Trigger The Awesomeness using Amazing Option Panel in <b>Theme "
+"Options</b>."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:344
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:184
+#: includes/functions/classes/Core.class.php:189
+msgid "You have Access Denied. Please authorize the app to login."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:67
+msgid "You have just Installed HaLimMovie WordPress Theme by HaLimThemes."
+msgstr ""
+
+#: templates/child-theme.php:28
+#, php-format
+msgid ""
+"You may edit all of what you pasted EXCEPT for the <code>Template: "
+"halimmovies</code> line. Leave that line alone or the child theme will not "
+"attach itself to %s."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:484
+msgid ""
+"You're done! The status of your license displays below the License Key field."
+msgstr ""
+
+#: includes/update-checker/Puc/v4p9/Factory.php:476
+msgid ""
+"Your license key grants you access to theme updates and support. If your "
+"license key is deactivated or expired, your theme will work properly but you "
+"will not receive automatic updates."
+msgstr ""
+
+#: core/src/HaLimCore/Helper.php:71
+#: includes/update-checker/Puc/v4p9/Factory.php:931
+msgid ""
+"Your license key is invalid or not activated, Please buy a valid license and "
+"enter it in the options page. <br/>[<a href=\"http://halimthemes.com\" "
+"title=\"Theme developed by HaLimThemes.Com\">Theme developed by HaLimThemes."
+"Com</a>]"
+msgstr ""
+
+#: single.php:69
+msgid "Your message"
+msgstr ""
+
+#: single.php:68
+msgid "Your name and message is required (*)"
+msgstr ""
