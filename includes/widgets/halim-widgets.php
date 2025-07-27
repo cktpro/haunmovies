@@ -56,6 +56,9 @@ include_once HALIM_INC_WIDGET.'/halim-movies-widget.php';
 include_once HALIM_INC_WIDGET.'/halim-tv-shows-widget.php';
 include_once HALIM_INC_WIDGET.'/halim-theater-movie-widget.php';
 include_once HALIM_INC_WIDGET.'/halim-carousel-fullwidth-slider-widget.php';
+include_once HALIM_INC_WIDGET.'/halim-movie-pagination-widget.php';
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	Enable Widgetized sidebar and Footer

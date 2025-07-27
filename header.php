@@ -69,6 +69,7 @@
                     <?php
                         $enable_user_login_register = cs_get_option('enable_user_login_register');
                         if($enable_user_login_register || is_user_logged_in()) HaLimCore::halim_userAccess();
+                        
                     ?>
                     <div id="bookmark-list" class="hidden bookmark-list-on-pc"><ul style="margin: 0;"></ul></div>
                 </div>

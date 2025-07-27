@@ -10,7 +10,7 @@ class HaLim_Schedule_Widget extends WP_Widget
 			__('HaLim Schedule Widget', 'halimthemes'),
 			array(
 				'classname'   => 'halim-schedule-widget',
-				'description' => __('Display posts by category, latest, most viewed, last update', 'halimthemes')
+				'description' => __('Widget hiển thị bài đăng dựa trên lịch chiếu phim.Để sử dụng widget này vui lòng chỉnh sửa bài đăng của bạn và ngày chiếu vào lịch chiếu phim (Thứ 2,Thứ 3...Chủ Nhật)', 'halimthemes')
 			)
 		);
 	}
@@ -98,6 +98,14 @@ class HaLim_Schedule_Widget extends WP_Widget
 						'posts_per_page' => $postnum,
 						
 					);
+					if($rand==1){
+						$args['tax_query'] = array(array(
+							'taxonomy' => 'status',
+							'field' => 'slug',
+							'terms' => 'ongoing',
+							'operator' => 'IN'
+						));
+					};
 					if($type == 'popular'){
 						$args['orderby'] = 'meta_value_num';
 						$args['meta_query'] =  array(
@@ -117,7 +125,6 @@ class HaLim_Schedule_Widget extends WP_Widget
 					} elseif($type == 'lastupdate') {
 						$args['orderby'] = 'modified';
 					};
-					
 					foreach ($day_of_week as $index=> $day) {
 						$args['meta_query'] = array(
 							array(
@@ -197,10 +204,10 @@ class HaLim_Schedule_Widget extends WP_Widget
 				<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
 			</p>
 
-			<p>
+			<!-- <p>
 				<label for="<?php echo $this->get_field_id('url'); ?>"><?php _e('View more URL', 'halimthemes') ?></label>
 				<input class="widefat" id="<?php echo $this->get_field_id('url'); ?>" name="<?php echo $this->get_field_name('url'); ?>" type="text" value="<?php echo $url; ?>" placeholder="http://play.halimthemes.com/phim-moi/" />
-			</p>
+			</p> -->
 			<p style="display: inline-block;">
 				<label><?php _e('Display posts by', 'halimthemes') ?></label>
 				<br>
@@ -210,7 +217,7 @@ class HaLim_Schedule_Widget extends WP_Widget
 				<?php
 				$f = array(
 					// 'categories' 	=> __('Category', 'halimthemes'),
-					'completed'		=> __('Completed', 'halimthemes'),
+					// 'completed'		=> __('Completed', 'halimthemes'),
 					'lastupdate'	=> __('Last update', 'halimthemes'),
 					'popular' 		=> __('Most viewed', 'halimthemes'),
 					// 'tvseries'		=> __('TV Series', 'halimthemes'),
@@ -226,79 +233,63 @@ class HaLim_Schedule_Widget extends WP_Widget
 					</label>
 				<?php } ?>
 			</p>
-			<script>
+			<!-- <script>
 				jQuery(document).on('click', function(e) {
 					var $this = jQuery(e.target);
 					var $form = $this.closest('.hl_options_form');
 
-					if ($this.is('.categories')) {
-						var $halim = $form.find('.category');
-						var val = $this.is(':checked');
-						if (val) {
-							$halim.slideDown();
-						}
-					} else if ($this.is('.popular, .latest, .tvseries, .movies, .lastupdate, .completed')) {
-						var $halim = $form.find('.category');
-						var val = $this.is(':checked');
-						if (val) {
-							$halim.slideUp();
-						}
-					}
+					// if ($this.is('.categories')) {
+					// 	var $halim = $form.find('.category');
+					// 	var val = $this.is(':checked');
+					// 	if (val) {
+					// 		$halim.slideDown();
+					// 	}
+					// } else if ($this.is('.popular, .latest, .tvseries, .movies, .lastupdate, .completed')) {
+					// 	var $halim = $form.find('.category');
+					// 	var val = $this.is(':checked');
+					// 	if (val) {
+					// 		$halim.slideUp();
+					// 	}
+					// }
 
-					if ($this.is('.lastupdate')) {
-						var $halim = $form.find('.random');
-						var val = $this.is(':checked');
-						if (val) {
-							$halim.slideUp();
-						}
-					} else if ($this.is('.popular, .latest, .tvseries, .movies, .lastupdate, .completed')) {
-						var $halim = $form.find('.random');
-						var val = $this.is(':checked');
-						if (val) {
-							$halim.slideDown();
-						}
-					}
+					// if ($this.is('.lastupdate')) {
+					// 	var $halim = $form.find('.random');
+					// 	var val = $this.is(':checked');
+					// 	if (val) {
+					// 		$halim.slideUp();
+					// 	}
+					// } else if ($this.is('.popular, .latest, .tvseries, .movies, .lastupdate, .completed')) {
+					// 	var $halim = $form.find('.random');
+					// 	var val = $this.is(':checked');
+					// 	if (val) {
+					// 		$halim.slideDown();
+					// 	}
+					// }
 
 				});
 
 				jQuery(document).ready(function($) {
-					if ($("input.lastupdate").is(':checked')) {
-						if ($('input.lastupdate:checked').val() == 'lastupdate') {
-							$('.random').slideUp();
-						}
-					}
+					// if ($("input.lastupdate").is(':checked')) {
+					// 	if ($('input.lastupdate:checked').val() == 'lastupdate') {
+					// 		$('.random').slideUp();
+					// 	}
+					// }
 
-					if ($("input.cat").is(':checked')) {
-						if ($('input.cat:checked').val() == 'categories') {
-							$('.category').slideDown();
-						}
-					}
+					// if ($("input.cat").is(':checked')) {
+					// 	if ($('input.cat:checked').val() == 'categories') {
+					// 		$('.category').slideDown();
+					// 	}
+					// }
 				});
-			</script>
+			</script> -->
 			<br />
-			<p class="random" style="clear: both; display:block;">
+			<p class="hide_completed" style="clear: both; display:block;">
 				<label for="<?php echo $this->get_field_id("rand"); ?>_rand">
 					<input id="<?php echo $this->get_field_id("rand"); ?>_rand" class="rand" name="<?php echo $this->get_field_name("rand"); ?>" type="checkbox" value="1" <?php if (isset($rand)) {
 																																												checked($rand, 1);
-																																											} ?> /> <?php _e('Random post', 'halimthemes') ?>
+																																											} ?> /> <?php  echo 'Ẩn phim đã hoàn thành'; ?>
 				</label>
 			</p>
-			<br />
-			<div class="hl_select_tabs" style="clear: both;border: 1px solid #f1f1f1;padding: 6px;background: #fdfdfd;">
-				<h4 style="margin-top: 0;margin-bottom: 5px;"><?php _e('Sub category', 'halimthemes'); ?></h4>
-				<div class="hl_select_tabs" style="max-height: 150px;overflow-x: auto;border: 1px solid #eee;padding: 5px;">
-					<?php
-					$showsubcat = get_categories('hide_empty=1&depth=1&hierarchical=1&type=post');
-					foreach ($showsubcat as $getsubcat) { ?>
-						<label for="<?php echo $this->get_field_id("tabs"); ?>_<?php echo $getsubcat->term_id; ?>" class="alignleft" style="display: block; width: 50%; margin-bottom: 5px;">
-							<input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("tabs"); ?>_<?php echo $getsubcat->term_id; ?>" name="<?php echo $this->get_field_name("tabs"); ?>[<?php echo $getsubcat->term_id; ?>]" value="<?php echo $getsubcat->term_id; ?>" <?php if (isset($tabs[$getsubcat->term_id])) {
-																																																																								checked($getsubcat->term_id, $tabs[$getsubcat->term_id], true);
-																																																																							} ?> /><?php echo $getsubcat->cat_name; ?> [<?php echo $getsubcat->count ?>]
-						</label>
-					<?php }
-					?>
-				</div>
-			</div>
 
 			<p style="clear: both;">
 				<label for="<?php echo $this->get_field_id('layout'); ?>">
@@ -315,16 +306,6 @@ class HaLim_Schedule_Widget extends WP_Widget
 					</select>
 				</label>
 			</p>
-			<p class="category" style="display: none;">
-				<label for="<?php echo $this->get_field_id('categories'); ?>"><?php _e('Category', 'halimthemes') ?></label>
-				<select id="<?php echo $this->get_field_id('categories'); ?>" name="<?php echo $this->get_field_name('categories'); ?>" class="widefat categories" style="width:100%;">
-					<option value='all' <?php if ('all' == $instance['categories']) echo 'selected="selected"'; ?>>All categories</option>
-					<?php $categories = get_categories('hide_empty=1&depth=1&type=post'); ?>
-					<?php foreach ($categories as $category) { ?>
-						<option value='<?php echo $category->term_id; ?>' <?php if ($category->term_id == $instance['categories']) echo 'selected="selected"'; ?>><?php echo $category->cat_name; ?> [<?php echo $category->count ?>]</option>
-					<?php } ?>
-				</select>
-			</p>
 
 			<p>
 				<label for="<?php echo $this->get_field_id('postnum'); ?>"><?php _e('Number of post to show', 'halimthemes') ?></label>
@@ -337,6 +318,6 @@ class HaLim_Schedule_Widget extends WP_Widget
 }
 function _HaLim_Schedule_Widget()
 {
-	register_widget('HaLim_schedule_Widget');
+	register_widget('HaLim_Schedule_Widget');
 }
 add_action('widgets_init', '_HaLim_Schedule_Widget');
