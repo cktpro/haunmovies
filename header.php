@@ -64,14 +64,41 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 hidden-xs">
+                <!-- <div class="col-md-4 hidden-xs">
                     <div id="get-bookmark" class="box-shadow"><i class="hl-bookmark"></i><span> <?php _e('Bookmarks', 'halimthemes'); ?></span><span class="count">0</span></div>
+                     
                     <?php
                         $enable_user_login_register = cs_get_option('enable_user_login_register');
                         if($enable_user_login_register || is_user_logged_in()) HaLimCore::halim_userAccess();
                         
                     ?>
                     <div id="bookmark-list" class="hidden bookmark-list-on-pc"><ul style="margin: 0;"></ul></div>
+                </div> -->
+                <!-- <div class="mobile-icon-menu"> -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="nav-items flex-wrap flex">
+                        <a href="/lich-su" title="Lịch sử xem">
+                            <div>
+                            <i class="hl-clock"></i>
+                            </div>
+                        </a>
+                        <a href="" title="Bookmark" class="get-bookmark-on-mobile">
+                            <div>
+                            <i class="hl-bookmark"></i>
+                            </div>
+                        </a>
+                        <div class="nav-menu-user">
+                        <?php if ( is_user_logged_in() ) : ?>
+    <!-- Nội dung khi user đã đăng nhập -->
+    <a href="<?php echo wp_logout_url(home_url()); ?>">
+<?php else : ?>
+    <!-- Nội dung khi user chưa đăng nhập -->
+    <a href="javascript:void(0);" onclick="openLoginModal();">
+<?php endif; ?>
+                            <i class="hl-user"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </div>

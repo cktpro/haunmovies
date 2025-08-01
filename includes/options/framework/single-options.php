@@ -183,7 +183,7 @@ $options[]   = array(
     array(
       'id'    => 'enable_fb_comment',
       'type'  => 'switcher',
-      'title' => 'Enable Facebook Comment',
+      'title' => 'Enable Comment',
       'default' => true,
     ),
 
