@@ -32,6 +32,15 @@
         }
     } else $trailer_url = '';
     ?>
+     <script>
+var DoPostInfo = {
+    id: "<?php echo get_the_ID(); ?>",
+    url: "<?php echo get_permalink(); ?>",
+    name: "<?php echo esc_js(get_the_title()); ?>",
+    image: "<?php echo esc_url(halim_image_display()); ?>",
+    ep_name: ""
+};
+</script>
     <div class="halim-movie-wrapper tpl-2">
         <div class="movie_info col-xs-12">
             <div class="movie-poster col-md-4">
@@ -160,4 +169,12 @@
             </div>
         </div>
     </div>
+    <div class="entry-content htmlwrap clearfix">
+    <?php
+    if ( comments_open() || get_comments_number() ) {
+        comments_template();
+        }
+        ?>
+    </div>
     <?php do_action('halim_after_single_content', $post->ID); ?>
+  

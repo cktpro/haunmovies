@@ -9,6 +9,7 @@
     $episode_slug = get_query_var('episode_slug') ? wp_strip_all_tags(get_query_var('episode_slug')) : '';
     if (have_posts()): while (have_posts()): the_post();
         ?>
+
         <div class="clearfix"></div>
         <?php dynamic_sidebar('halim-ad-above-player') ?>
         <div class="clearfix"></div>
@@ -88,3 +89,12 @@
         </div>
     <?php endif; ?>
     <div id="lightout"></div>
+    <script>
+var DoPostInfo = {
+    id: "<?php echo get_the_ID(); ?>",
+    url: "<?php echo get_permalink(); ?>",
+    name: "<?php echo esc_js(get_the_title()); ?>",
+    image: "<?php echo esc_url(halim_image_display()); ?>",
+    ep_name: "Tập<?php echo $episode_slug ?>"
+};
+</script>
