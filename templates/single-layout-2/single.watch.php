@@ -95,6 +95,6 @@ var DoPostInfo = {
     url: "<?php echo get_permalink(); ?>",
     name: "<?php echo esc_js(get_the_title()); ?>",
     image: "<?php echo esc_url(halim_image_display()); ?>",
-    ep_name: "Tập<?php echo $episode_slug ?>"
+    ep_name: "Tập <?php echo $episode_slug ?>"
 };
 </script>
