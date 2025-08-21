@@ -8375,7 +8375,7 @@ th {
 }
 .halim-schedule-block > li > a {
   padding: 5px 10px;
-  background: #23232a;
+  background: #333;
   margin: 1px;
   color: #fff;
 }
@@ -8392,6 +8392,9 @@ th {
     margin-bottom: 1px !important;
     width: 49%;
     float: left;
+  }
+  .halim-schedule-block > li > a > span {
+    display:none;
   }
 }
 .halim-schedule-block > li > a:hover,

@@ -80,10 +80,11 @@ class HaLim_Schedule_Widget extends WP_Widget
 			echo '<ul   class="nav nav-pills nav-justified halim-schedule-block">';
 			
 			foreach ($day_of_week as $day) {
+				$shortDay = substr($day['value'], 0, 3);
 				if ($day['value'] == date('l')) {
-					echo '<li  class="halim_ajax_get_schedule active" data-catid="' . $day['value'] . '" data-showpost="' . $postnum . '" data-widgetid="' . $args['widget_id'] . '" data-layout="' . $instance['layout'] . '" " data-day="' . $day['slug'] . '"><a href="#'.$day['slug'].'"  role="tab" data-toggle="tab" aria-expanded="true" >' . $day['name'] . '</a></li>';
+					echo '<li  class="halim_ajax_get_schedule active" data-catid="' . $day['value'] . '" data-showpost="' . $postnum . '" data-widgetid="' . $args['widget_id'] . '" data-layout="' . $instance['layout'] . ' " data-day="' . $day['slug'] . '"><a href="#'.$day['slug'].'"  role="tab" data-toggle="tab" aria-expanded="true" ><span style="font-weight: 600;font-size: 16px;line-height: 1em;">'.$shortDay.'</br></span>' . $day['name'] . '</a></li>';
 				} else
-					echo '<li  class="halim_ajax_get_schedule" data-catid="' . $day['value'] . '" data-showpost="' . $postnum . '" data-widgetid="' . $args['widget_id'] . '" data-layout="' . $instance['layout'] . '" " data-day="' . $day['slug'] . '"><a href="#'.$day['slug'].'"  role="tab" data-toggle="tab" aria-expanded="true">' . $day['name'] . '</a></li>';
+					echo '<li  class="halim_ajax_get_schedule" data-catid="' . $day['value'] . '" data-showpost="' . $postnum . '" data-widgetid="' . $args['widget_id'] . '" data-layout="' . $instance['layout'] . ' " data-day="' . $day['slug'] . '"><a href="#'.$day['slug'].'"  role="tab" data-toggle="tab" aria-expanded="true"><span style="font-weight: 600;font-size: 16px;line-height: 1em;">'.$shortDay.'</br></span>' . $day['name'] . '</a></li>';
 			}
 
 			echo '</ul>';
