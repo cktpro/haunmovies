@@ -80,17 +80,11 @@ if (!function_exists("halim_get_user_rate")) {
         $description = $desc != "" ? $desc : halim_string_limit_word(halim_get_the_excerpt($post->ID), 150);
         ?>
         <div class="halim_imdbrating taq-score">
-            <span class="score"><?php echo $totla_users_score ?></span><i>/</i>
-            <span class="max-ratings">5</span>
-            <span class="total_votes"><?php echo $count ?></span><span class="vote-txt">
-                <?php _e('votes', 'halimthemes') ?></span>
-        </div>
-        <div class="rate-this">
-            <div data-rate="<?php echo $total ?>" data-id="<?php echo $post->ID ?>" class="user-rate user-rate-active">
-                <span class="user-rate-image post-large-rate stars-large">
-                    <span style="width: <?php echo $total ?>%"></span>
-                </span>
-            </div>
+            <span class="score"><?php echo $totla_users_score ?></span><i class="halim-rating-slash">/</i>
+            <span class="halim-rating-max">5</span>
+            <span
+                class="halim-rating-votes"><?php echo " (" . $count . " " ?><?php echo _e('votes', 'halimthemes') . ")" ?></span>
+            </span>
         </div>
         <?php
     }
