@@ -82,9 +82,9 @@ if (!function_exists("halim_get_user_rate")) {
         <div class="halim_imdbrating taq-score">
             <span class="score"><?php echo $totla_users_score ?></span><i class="halim-rating-slash">/</i>
             <span class="halim-rating-max">5</span>
-            <span
-                class="halim-rating-votes"><?php echo " (" . $count . " " ?><?php echo _e('votes', 'halimthemes') . ")" ?></span>
-            </span>
+            <div class="halim-rating-votes">&#40;<span class="rating-votes"><?php echo $count ?></span>
+                <?php echo _e('votes', 'halimthemes') ?></span>&#41;
+            </div>
         </div>
         <?php
     }
