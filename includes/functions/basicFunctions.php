@@ -78,22 +78,34 @@ if (!function_exists("halim_get_user_rate")) {
         }
         $desc = get_post_meta($post->ID, "_yoast_wpseo_metadesc", true);
         $description = $desc != "" ? $desc : halim_string_limit_word(halim_get_the_excerpt($post->ID), 150);
-        	    ?>
-	    <div class="halim_imdbrating taq-score">
-	    	<span class="score"><?php echo $totla_users_score ?></span><i>/</i>
-	    	<span class="max-ratings">5</span>
-	    	<span class="total_votes"><?php echo $count ?></span><span class="vote-txt"> <?php _e('votes', 'halimthemes') ?></span>
-	    </div>
-	    <div class="rate-this">
-	        <div data-rate="<?php echo $total ?>" data-id="<?php echo $post->ID ?>" class="user-rate user-rate-active">
-				<span class="user-rate-image post-large-rate stars-large">
-					<span style="width: <?php echo $total ?>%"></span>
-				</span>
-			</div>
-	    </div>
-		<?php
+        ?>
+        <div class="halim_imdbrating taq-score">
+            <span class="score"><?php echo $totla_users_score ?></span><i class="halim-rating-slash">/</i>
+            <span class="halim-rating-max">5</span>
+            <div class="halim-rating-votes">&#40;<span class="rating-votes"><?php echo $count ?></span>
+                <?php echo _e('votes', 'halimthemes') ?></span>&#41;
+            </div>
+        </div>
+        <?php
     }
 }
+
+function halim_rate($post_id)
+{
+    $rate = get_post_meta($post_id, "halim_user_rate", true);
+    $count = get_post_meta($post_id, "halim_users_num", true);
+
+    if (!$count || $count == 0) {
+        // Chưa có ai đánh giá → random hoặc mặc định
+        return 0; // 3.5 → 4.5
+    }
+    $total_users_score = $rate / $count;
+
+    // Nếu < 3.5 thì random từ 3.5 đến 4.5
+
+    return round($total_users_score, 1);
+}
+
 if (!function_exists("halimReviewRating")) {
     function halimReviewRating()
     {
@@ -125,28 +137,29 @@ if (!function_exists("halimReviewRating")) {
         $single_tpl = cs_get_option("single_template");
         $link = $single_tpl !== NULL ? home_url("/") . $watch_slug . "/" . $post_slug : home_url("/") . $post_slug;
         $directors = has_term("", "director") ? get_the_terms($post->ID, "director")[0]->name : "HaLim";
-	    $json_data = array(
-			  '@context' => 'http://schema.org',
-			  '@type' => HALIMHelper::is_type('tv_series') ? 'TVSeries' : 'Movie',
-			  'name' => halim_filter_movie_wpseo_title($post->post_title),
-			  'dateModified' => get_the_modified_time('c'),
-			  'dateCreated' => get_the_date('c'),
-			  'url' => home_url($wp->request),
-			  'datePublished' => get_the_date('c'),
-			  'aggregateRating' => array(
-			    '@type' => 'AggregateRating',
-			    'bestRating' => '5',
-			    'worstRating' => '2',
-			    'ratingValue' => ceil($total_vote),
-			    'reviewCount' => $rating_count,
-			  ),
-			  'image' => halim_image_display(),
-			  'director' => $directors,
-		);
-	?>
+        $json_data = array(
+            '@context' => 'http://schema.org',
+            '@type' => HALIMHelper::is_type('tv_series') ? 'TVSeries' : 'Movie',
+            'name' => halim_filter_movie_wpseo_title($post->post_title),
+            'dateModified' => get_the_modified_time('c'),
+            'dateCreated' => get_the_date('c'),
+            'url' => home_url($wp->request),
+            'datePublished' => get_the_date('c'),
+            'aggregateRating' => array(
+                '@type' => 'AggregateRating',
+                'bestRating' => '5',
+                'worstRating' => '2',
+                'ratingValue' => ceil($total_vote),
+                'reviewCount' => $rating_count,
+            ),
+            'image' => halim_image_display(),
+            'director' => $directors,
+        );
+        ?>
 
-		<script type="application/ld+json"><?php echo json_encode($json_data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES ); ?></script>
-		<?php
+        <script
+            type="application/ld+json"><?php echo json_encode($json_data, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES); ?></script>
+        <?php
     }
 }
 add_action("wp_head", "halimReviewRating");
